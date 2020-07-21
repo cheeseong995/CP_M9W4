@@ -1,0 +1,38 @@
+---
+title: "Presentation_Shiny"
+author: "Chee Seong"
+date: "July 21, 2020"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Shiny Presentation
+
+- The dataset used in the Shiny application is mtcars. We will be regressing mpg on weights and use cylinder as the changing variable. 
+
+- We will examine different linear regression on the different combination of cylinders. 
+
+## Interface
+
+There are only options to choose from:
+
+- The different combinations of cylinders.
+- The Linear Regression Line for the selected cylinders
+- The Original Line of the Cylinder
+
+The original regression line for all the cylinders are used as a comparison when selecting the different combinations for the trial linear regression. 
+
+## Code and Github
+
+The following link brings you to the server for the Shiny App:
+https://cheeseong95.shinyapps.io/Course_Project_M9W4/
+
+The following link brings you to my Github page:
+https://github.com/cheeseong995/CP_M9W4
+
+Thank you!
+
+
